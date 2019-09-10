@@ -1,0 +1,61 @@
+body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 930px;
+    margin: 0 auto;
+}
+
+header{
+    background: url('images/background.jpg') center no-repeat / cover;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.phones{
+    margin-left: auto;}
+   .phones a{
+       font-size: 14px;
+       text-decoration: none;
+       color: #fff;
+       padding-left: 15px;}
+
+.header-text h1{
+    margin: 50px 5px 20px 70px;}
+   .header-text p{
+       margin: 20px 5px 20px 70px;
+   }
+
+.button a{
+    background-color: yellow;
+    color: grey;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    width: 170px;
+    text-decoration: none;
+    margin: 20px 5px 20px 70px;
+    padding: 10px;
+}
+
+.title h2{
+    color: #000;
+    text-align: center;}
+   .title p{
+       color: #000;
+       text-align: center;}
+
+.services{
+    margin-top: 25px;
+    width: 310px;
+    float: left;
+    text-align: center;
+}
